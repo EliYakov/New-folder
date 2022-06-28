@@ -14,6 +14,11 @@
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
+.carousel-inner,
+.carousel-item {
+  height: 750px;
+}
+
 .card-img-top {
   height: 100px;
   width: 100px;
