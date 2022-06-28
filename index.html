@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./img/download.png" alt="עיריית חולון" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >דף הבית</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">אודותינו</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">גלרית תמונות</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">שאלות ותשובות</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">צור קשר</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="flex-fill my-2">
+      <section>
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-bs-ride="false"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="4"
+              aria-label="Slide 5"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./img/pexels-alleksana-6781772.jpg"
+                class="d-block w-100"
+                alt="מסכת פורים"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>פורים שמח</h5>
+                <p>"אני פורים אני פורים שמח ומבדח"</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./img/pexels-mikhail-nilov-9391348.jpg"
+                class="d-block w-100"
+                alt="מסיבת פורים"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>מסיבות פורים</h5>
+                <p>אני פורים אני פורים מארגן את המסיבות הטובות בעיר</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./img/pexels-alleksana-6781802.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>פורים שמח</h5>
+                <p>אבוא רק פעם בשנה לעשות את המסיבה הכי שווה</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./img/pexels-mikhail-nilov-9393922.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>פורים שמח</h5>
+                <p>עדלאידע מדהימה .. חגיגות, מתוקים ותחרות תחפושות</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./img/pexels-mikhail-nilov-9391418.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>פורים שמח</h5>
+                <p>חולון מזמינה אותכם לחגיגת פורים מדהימה .. חג שמח</p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="row m-2 border border-dark d-flex justify-content-center">
+        <div class="text-center">
+          <h2>ספונסרים</h2>
+        </div>
+        <div class="card col-md-4 col-sm-12 m-1">
+          <img
+            class="card-img-top"
+            src="./Sponsers/1200px-Meyeden_new_LOGO.jpeg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">מי עדן</h5>
+            <p class="card-text">
+              הכירו את המוצרים : ברי המים שלנו, הבקבוקים שלנו והקפה שלנו!
+            </p>
+            <a href="#" class="btn btn-primary">לאתר הרשמי</a>
+          </div>
+        </div>
+
+        <div class="card col-md-4 col-sm-12 m-2">
+          <img
+            class="card-img-top"
+            src="./Sponsers/816000301000100640360no.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">גולדסטאר</h5>
+            <p class="card-text">
+              אחי חלאס עם האחי, תגיד תודה על מי שאתה ותשתה משהו בירה גולדסטאר
+              הכי ישראלית שיש!
+            </p>
+            <a href="#" class="btn btn-primary">לאתר הרשמי</a>
+          </div>
+        </div>
+
+        <div class="card col-md-4 col-sm-12 m-2">
+          <img
+            class="card-img-top"
+            src="./Sponsers/5_32_LOGO_osem-corporation-heb.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">אסם</h5>
+            <p class="card-text">
+              באתר של אסם-נסטלה תוכלו למצוא מידע על מותגי הקבוצה, משרות חדשות,
+              שירות צרכנים, ההיסטוריה שלנו והייעוד שלנו. הקליקו למידע נוסף.
+            </p>
+            <a href="#" class="btn btn-primary">לאתר הרשמי</a>
+          </div>
+        </div>
+
+        <div class="card col-md-4 col-sm-12 m-2">
+          <img
+            class="card-img-top"
+            src="./Sponsers/5003655196198490489no.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">אסם</h5>
+            <p class="card-text">
+              באתר של אסם-נסטלה תוכלו למצוא מידע על מותגי הקבוצה, משרות חדשות,
+              שירות צרכנים, ההיסטוריה שלנו והייעוד שלנו. הקליקו למידע נוסף.
+            </p>
+            <a href="#" class="btn btn-primary">לאתר הרשמי</a>
+          </div>
+        </div>
+
+        <div class="card col-md-4 col-sm-12 m-2">
+          <img
+            class="card-img-top"
+            src="./Sponsers/60366.png"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">אסם</h5>
+            <p class="card-text">
+              באתר של אסם-נסטלה תוכלו למצוא מידע על מותגי הקבוצה, משרות חדשות,
+              שירות צרכנים, ההיסטוריה שלנו והייעוד שלנו. הקליקו למידע נוסף.
+            </p>
+            <a href="#" class="btn btn-primary">לאתר הרשמי</a>
+          </div>
+        </div>
+
+        <div class="card col-md-4 col-sm-12 m-2">
+          <img
+            class="card-img-top"
+            src="./Sponsers/LogoSpatHotelFinal-01+(1)-640w.png"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">אסם</h5>
+            <p class="card-text">
+              באתר של אסם-נסטלה תוכלו למצוא מידע על מותגי הקבוצה, משרות חדשות,
+              שירות צרכנים, ההיסטוריה שלנו והייעוד שלנו. הקליקו למידע נוסף.
+            </p>
+            <a href="#" class="btn btn-primary">לאתר הרשמי</a>
+          </div>
+        </div>
+
+        <div class="card col-md-4 col-sm-12 m-2">
+          <img
+            class="card-img-top"
+            src="./Sponsers/בורגראנץ'.svg.png"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">אסם</h5>
+            <p class="card-text">
+              באתר של אסם-נסטלה תוכלו למצוא מידע על מותגי הקבוצה, משרות חדשות,
+              שירות צרכנים, ההיסטוריה שלנו והייעוד שלנו. הקליקו למידע נוסף.
+            </p>
+            <a href="#" class="btn btn-primary">לאתר הרשמי</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-danger">שלום</footer>
+  </body>
+</html>
