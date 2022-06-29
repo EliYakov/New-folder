@@ -26,3 +26,16 @@
 .navbar-brand img {
   height: 150px;
 }
+
+.container > img {
+  height: 300px;
+}
+
+.icons > a > img {
+  height: 50px;
+  padding: 5px;
+}
+
+footer {
+  background-color: #9453a6;
+}
